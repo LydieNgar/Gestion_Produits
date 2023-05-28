@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* Projet de Atrid GNINOFOUN & Lydie NGARDOLEGOM*/
+
+html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(images/fond1.jpg);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#entete{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    z-index: 1;
+}
+
+    .image_entete{
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+        object-fit: cover;
+        object-position: center;
+
+    }
+
+    
+    .video_entete{
+        width: 600px;
+       
+    }
+    
+
+    .nomapp{
+        font-size: 50px;
+        text-align: center;
+        margin: 0;
+        padding-top: 5%;
+        color: #FFFF;
+        position: relative;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+        #formprod{
+            position: relative;
+            border: 1px solid #FFFF;
+            border-left: none;
+            border-right: none;
+            background-color: rgba(000, 000, 000, 0.5);
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            min-height: 10%;
+            text-align: center;
+            padding: 2%;
+        }
+
+        #motcle{
+            height: 30px;
+            width: 300px;
+            border: none;
+            padding-left: 2px;
+        }
+
+        .btfind{
+            height: 30px;
+            width: 300px;
+            border: none;
+            background-color: rgb(180, 86, 235);
+            color: #FFFF;
+        }
+
+        #articles{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 2%;
+            vertical-align: middle;
+        }
+
+        #prod{
+            border: 1px solid #999;
+            width: 150px;
+            min-height: 200px;
+            margin: 10px;
+            padding-left: 20px;
+            float: left;
+        }
+
+        #prod img{
+            margin: 5px;
+            width: 130px;
+            height: 100px;
+        }
+
+        b{
+            color: rgb(180, 86, 235);
+            font-size: 18px;
+        }
+
+
+
+        /*---------------------LOGIN---------------*/
+
+
+        a{
+            text-decoration: none;
+        }
+
+        #entete .login{
+            opacity: 0.8;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: 1px solid rgb(180, 86, 235);
+            border-right: none;
+            cursor: pointer;
+            width: 5%;
+            right: 0;
+            position: absolute;
+            z-index: 10;
+        }
+
+
+        #entete .login:hover{
+            opacity: 1;
+            background-color: rgb(180, 86, 235);
+            border: none;
+        }
+
+        
+
+        /*------------------PAGE LOGIN---------------*/
+        
+
+        #container{
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 10%;
+        }
+
+        #container h1{
+            width: 38%;
+            margin: 0 auto;
+            padding-bottom: 10px;
+        }
+
+            .formulaire{
+                width: 100%;
+                padding: 30px;
+                border: 1px solid #f1f1f1;
+                background: white;
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+            }
+
+            .details{
+                width: fit-content;
+                padding: 30px;
+                border: 2px solid white;
+                box-shadow: 0 0 20px 0 rgba(0, 0, 0, 2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+            }
+
+        
+
+        .zonetext{
+            background-color: white;
+            color: black;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: 1;
+            cursor: pointer;
+            width: 90%;
+        }
+
+        .submit{
+            background-color: rgb(180, 86, 235);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;        
+        }
+
+        .submit:hover{
+            background-color: white;
+            color: rgb(180, 86, 235);
+            border: 1px solid rgb(180, 86, 235);
+        }
+
+
+        /*-------------Acceuil--------*/
+
+
+        #global{
+            width: 100%;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        #global #profil{
+            width: 20%;
+            padding: 10px;
+            vertical-align: top;
+            text-align: center;
+            min-height: 150px;
+            display: inline-block;
+            border: 1px solid #f1f1f1;
+            background-image: url(images/fond.jpg);
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        #global #tableaubord{
+            box-shadow: 0 0 20px 0 rgba(0, 0, 0, 2), 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+            min-height: 100px;
+            display: inline-block;
+            border: 1px solid #f1f1f1;
+            background-image: url(images/fond.jpg);
+            width: 70%;
+            padding: 20px;
+            margin: 5px;
+            vertical-align: middle;
+        }
+
+
+        table{
+            caption-side: bottom;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 4px;
+        }
+
+        th{
+            border: none;
+            background-color: rgb(180, 86, 235);
+            padding: 10px;
+        }
+
+        .photoprod{
+            width: 130px;
+            height: 100px;
+            border-radius: 5%;
+            border: 1px solid;
+        }
+
+
+        html{
+             scroll-behavior: smooth; 
+        }
+
+        
+        /*--------------------------------------------------------------------------------*/
+
+    ul.submenu{
+        display: none;
+        position: relative;
+      }ul.submenu li a:hover{
+        background-color:white;
+      }ul.submenu li a {
+        padding-left: 45px;
+      }ul.submenu li:before{
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: 25px;
+        top: 0;
+        bottom: 0;
+        border: 1px dotted rgb(180, 86, 235);
+        border-width: 0 0 0 1px;
+      }ul.submenu li a:before{
+        content: "";
+        display: inline-block;
+        position: absolute;
+        width: 7px;
+        left: 25px;
+        top: 18px;
+        border-top: 1px dotted rgb(180, 86, 235);
+      }
+
+
+      .sidebar {
+        position: fixed;
+        z-index: 10;
+        left: 50px;
+        top: 250px;
+        padding: 65px 0 0;
+        height: 150px;
+        width: 250px;
+        background-image: url(images/fond.jpg);
+        border-right: 1px solid rgba(180, 86, 235);
+        border-left: 1px solid rgba(180, 86, 235);
+        text-align: center;
+      }
+      
+      .sidebar ul li:hover,.submenu ul li:hover{
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+      }
+      
+      .sidebar ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .sidebar ul li {
+        display: block;
+      }
+      
+      .sidebar ul li:hover,ul.submenu{
+        background-color:rgba(180, 86, 235);
+      }
+      
+      .sidebar ul li a:hover {
+        color: white;
+      }
+      
+      .sidebar ul li a,ul.submenu li a {
+        color: rgba(180, 86, 235);
+        display: block;
+        overflow: visible;
+        position: relative;
+        white-space: nowrap;
+        text-decoration: none;
+        text-align: left;
+      }
+      
+      .sidebar ul li a span,.sidebar ul li i{
+        font-size: 20px;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        text-shadow: 0 1px rgba(0,0,0, 1);
+      }
+      
+      .sidebar ul li a i{
+        color: rgba(180, 86, 235);
+        padding: 20px 22px;
+        text-align: center;
+      }
+      
+    .header-date{
+        color: black;
+        margin-left: 20px;
+      }
